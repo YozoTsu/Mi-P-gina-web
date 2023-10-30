@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#quien-soy {
+    border:10px solid #ccc;
+	padding: 20px;
+}
+
+#contenido {
+    border:10px solid #ccc;
+	padding: 20px;
+}
+#inicio {
+    border:10px solid #ccc;
+	padding: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.galeria img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.perfil img {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+}
+.custom-carousel {
+        max-width: 800px;
+        max-height: 350px;
+        margin: 0 auto; 
+}
+.custom-carousel img {
+        max-width: 100%;
+        max-height: 100%;
+        width: 800px;
+        height:50%
+  }
